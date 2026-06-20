@@ -1,0 +1,44 @@
+name: Trigger site deploy
+
+# The another.money website is built by Cloudflare Pages from the APP repo
+# (anothermoney/app → site/), which fetches THIS repo's Markdown at build time.
+# A push here therefore doesn't rebuild the site on its own — so we ping the
+# Pages "Deploy Hook" to kick off a fresh build that picks up the new content.
+#
+# The hook URL is stored as the repo secret CF_PAGES_DEPLOY_HOOK (Settings →
+# Secrets and variables → Actions). It's a capability URL — anyone who has it
+# can trigger a build — so it must NOT be committed in plaintext.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/**'
+      - 'README.md'
+      - '.github/workflows/deploy-site.yml'
+  # Manual "Run workflow" button for an on-demand rebuild.
+  workflow_dispatch:
+
+# Coalesce rapid merges into a single deploy (cancel an in-flight ping when a
+# newer push lands).
+concurrency:
+  group: site-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Cloudflare Pages deploy hook
+        env:
+          HOOK: ${{ secrets.CF_PAGES_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::CF_PAGES_DEPLOY_HOOK secret is not set — cannot trigger a deploy." >&2
+            exit 1
+          fi
+          # Cloudflare deploy hooks are POST-only; -f makes curl exit non-zero
+          # on an HTTP error so a failed trigger fails the job.
+          curl -fsS -X POST "$HOOK" -o response.json
+          echo "Deploy triggered:"
+          cat response.json
