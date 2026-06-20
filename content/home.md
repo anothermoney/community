@@ -34,6 +34,13 @@ to every device with a clean UI.
 The web app is in **alpha** — open it in any modern browser and create a book in
 seconds. iOS and Android builds are on the way.
 
+> ⚠️ **Alpha warning — your data can be lost.** While we're still shaping the
+> app, the underlying data model can change between updates, and such a change
+> may require resetting your book — **wiping everything in it**. Don't keep
+> anything you can't afford to lose here yet. **Export a backup often** (a single
+> JSON file you control) — it's your best safety net, though during alpha we
+> can't promise every backup will restore cleanly across a breaking change.
+
 > [Open the app →](https://dev.another.money)
 
 ## Open & community-driven
