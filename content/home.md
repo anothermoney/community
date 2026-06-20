@@ -41,7 +41,7 @@ seconds. iOS and Android builds are on the way.
 > JSON file you control) — it's your best safety net, though during alpha we
 > can't promise every backup will restore cleanly across a breaking change.
 
-> [Open the app →](https://dev.another.money)
+> [Open the app →](https://app.another.money)
 
 ## Open & community-driven
 
