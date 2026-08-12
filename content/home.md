@@ -50,9 +50,9 @@ Most money apps want your bank password and a subscription, then guess at your f
 
 Enter a coffee in seconds, let recurring bills arrive on schedule — and watch the quiet result: your net worth, climbing.
 
-::: shots
-![**Transactions** — the week's story with running balances, notes, and a projected month-end total.](/shots/transactions.png)
-![**Net worth over time** — everything you own minus everything you owe, one climbing picture, projected ahead.](/shots/networth.png)
+::: phones
+![**Transactions** — the month at a glance: running balances, weekly nets, and the projected month-end total.](/shots/transactions-phone.png)
+![**Net worth over time** — everything you own minus everything you owe, month by month, projected ahead.](/shots/networth-phone.png)
 :::
 
 ## Then step back for the whole picture
