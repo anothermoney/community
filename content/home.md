@@ -38,8 +38,9 @@ Most money apps want your bank password and a subscription, then guess at your f
 - **📒 A real ledger.** Accounts, categories, payees, splits, transfers,
   reconciliation, recurring transactions, budgets, reports. The full craft of
   bookkeeping — not another "spending insights" toy.
-- **🧳 Your history comes along.** Import QIF, OFX, CSV, and MT940. Export
-  everything to a single JSON file you control. Your data never has an exit fee.
+- **🧳 Your history comes along.** Import QIF, OFX, CSV, and MT940. Back up
+  your whole book as a single file, or export everything as plain text. Your
+  data never has an exit fee.
 - **🤝 Built in the open.** The help, the guides, and this very site live in a
   public repository anyone can improve. Found something confusing? Telling us
   makes the app better for everyone.
@@ -80,8 +81,8 @@ to exist.
 ⚠️ **An honest word about alpha.** We're still shaping the app, and the
 underlying data model can change between updates — a change like that may
 require resetting your book, **wiping everything in it**. Don't keep anything
-you can't afford to lose here yet, and **export a backup often** (one JSON file
-you control). During alpha we can't promise every backup restores cleanly
+you can't afford to lose here yet, and **export a backup often** — one file,
+stored wherever you like. During alpha we can't promise every backup restores cleanly
 across a breaking change — we'd rather tell you that up front than pretend
 otherwise.
 :::
@@ -90,6 +91,8 @@ otherwise.
 ## Ready when you are
 
 Your first book takes under a minute. No sign-up, no card, no feed to connect — just you and your numbers.
+
+And don't take "local" on faith. Open the app on your phone or laptop, let it load — then switch off Wi‑Fi and try it. Add a transaction, check a report: nothing changes, because nothing ever depended on the network in the first place.
 :::
 
 ::: cta

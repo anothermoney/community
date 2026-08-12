@@ -42,9 +42,18 @@ If you turn on [collaboration](/collaboration):
 
 ## Backups
 
-Your **Back up** export is a JSON file you control. Store it somewhere safe
-(it contains your data) — and remember it's the only way back if you lose your
-device or password.
+- **Book file** — the main backup. **More → Backup & restore → Save book
+  file…** exports your whole book as a single portable file that stays
+  **encrypted exactly like the book itself**: whoever holds the file still
+  needs your password. Store it anywhere you like and restore it on any
+  device with **Open book file…**.
+- **Plain-text export** — the same screen can also serialise everything to a
+  human-readable snapshot. It is **not encrypted**: it's the one path that
+  exposes your data without the password, so treat that file accordingly.
+  (It's also the copy that would survive a forgotten password.)
+
+Either way the file is yours alone — and a recent backup is the only way back
+if you lose your device.
 
 > Have a security question or want to report an issue? See the
 > [FAQ](/faq) for how to get in touch.

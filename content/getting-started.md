@@ -47,9 +47,12 @@ the bank, marking transactions cleared and catching anything missing.
 
 ## 6. Back up
 
-Export your book to a single JSON file from **Settings → Back up**. That file is
-your portable, restorable copy — keep it somewhere safe. You can restore it into
-a new book any time.
+Save a copy of your book from **More → Backup & restore**. **Save book file…**
+exports the whole book as one portable file that stays encrypted with your
+password — keep it somewhere safe, and bring it back on any device with
+**Open book file…**. The same screen also offers a plain-text export if you
+ever want your data in a human-readable form (careful: that one is not
+encrypted).
 
 ## Next
 
