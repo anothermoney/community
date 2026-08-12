@@ -1,50 +1,89 @@
 ---
 title: another.money
 order: 1
+layout: home
+description: A quiet, precise personal-finance ledger that lives on your own device. Private by design, exact to the cent, yours alone — on the web today, iOS and Android soon.
 ---
 
-# Your money, on your terms.
+::: hero
+# Your money, on *your* terms.
 
-**another.money** is a personal-finance app that keeps your data yours. Track
-accounts, budgets, and spending with a fast, precise ledger — on the web today,
-on iOS and Android soon.
+No bank logins. No account to create. No one mining your spending. **another.money** is a quiet, precise ledger that lives on your own device — every cent accounted for, every number yours alone.
+:::
 
-It's a faithful, modern rebuild of *anMoney*, the well-loved Android app that was
-discontinued in 2014 — same trustworthy data model and ledger behaviour, brought
-to every device with a clean UI.
+::: cta
+[Open the app →](https://app.another.money) [See how it works](/getting-started)
 
-## Why another.money
+*Free during alpha · runs in your browser · nothing to install*
+:::
 
-- **Local-first.** Your book lives on your device, in an encrypted file. No
-  account to create, nothing uploaded just to use the app.
-- **Private by design.** Everything is protected by your password; optional
-  multi-device sharing is **end-to-end encrypted** — the sync relay never sees
-  your numbers.
-- **Exact money.** Balances are computed with integer math, not floating point,
-  so the cents always add up — across multiple currencies, using each
-  transaction's own date for conversion.
-- **Real bookkeeping.** Accounts, categories, payees, splits, transfers,
-  reconciliation, recurring transactions, budgets, and reports — the full
-  double-entry-style ledger, not a toy.
-- **Bring your history.** Import from QIF, OFX, CSV, and MT940; export and back
-  up to a single JSON file you control.
+::: shots
+![**Budget** — remaining at a glance, spending pace against the ideal line, projections for the month ahead.](/shots/budget.png)
+:::
 
-## Try it
+## Made for people who care where every cent goes
 
-The web app is in **alpha** — open it in any modern browser and create a book in
-seconds. iOS and Android builds are on the way.
+Most money apps want your bank password and a subscription, then guess at your finances from a noisy feed. This one trusts you to know your own money — and gives you the precise, honest tools to keep it in order.
 
-> ⚠️ **Alpha warning — your data can be lost.** While we're still shaping the
-> app, the underlying data model can change between updates, and such a change
-> may require resetting your book — **wiping everything in it**. Don't keep
-> anything you can't afford to lose here yet. **Export a backup often** (a single
-> JSON file you control) — it's your best safety net, though during alpha we
-> can't promise every backup will restore cleanly across a breaking change.
+::: cards
+- **🏠 Lives on your device.** Your book is one encrypted file on your phone or
+  laptop. No account, no upload, no waiting on someone else's server — it opens
+  instantly, even with no connection at all.
+- **🔐 Secrets kept.** Everything is locked with your password. Share a book
+  across devices or with a partner if you like — end-to-end encrypted, so the
+  sync relay only ever sees ciphertext. Never your numbers.
+- **🎯 Every cent adds up.** Balances are computed with integer math, never
+  floating point. Multiple currencies convert at each transaction's own date.
+  When it says you balance, you balance.
+- **📒 A real ledger.** Accounts, categories, payees, splits, transfers,
+  reconciliation, recurring transactions, budgets, reports. The full craft of
+  bookkeeping — not another "spending insights" toy.
+- **🧳 Your history comes along.** Import QIF, OFX, CSV, and MT940. Export
+  everything to a single JSON file you control. Your data never has an exit fee.
+- **🤝 Built in the open.** The help, the guides, and this very site live in a
+  public repository anyone can improve. Found something confusing? Telling us
+  makes the app better for everyone.
+:::
 
-> [Open the app →](https://app.another.money)
+## The day-to-day, done beautifully
 
-## Open & community-driven
+Enter a coffee in seconds, watch recurring bills arrive on schedule, and always know what month's end will look like.
 
-The help, guides, and this site's content live in a public repository — see
-[Getting started](/getting-started) and the [FAQ](/faq), and feel free to
-suggest improvements.
+::: shots
+![**Transactions** — the week's story with running balances, notes, and a projected month-end total.](/shots/transactions.png)
+![**Plan** — your recurring income and bills, due dates and amounts, one tap to enter or skip.](/shots/plan.png)
+:::
+
+::: story
+## Some apps refuse to die
+
+In 2014, a little Android app called *anMoney* was discontinued. It never asked
+for your bank credentials and never phoned home — it simply kept an honest,
+exact ledger for people who cared. The apps that came after wanted your logins,
+your data, and a monthly fee.
+
+**another.money** is its faithful rebuild: the same trustworthy data model and
+ledger behaviour, rebuilt from scratch for today's browsers, phones, and
+laptops. Not resurrected as a business model — resurrected because it deserved
+to exist.
+:::
+
+::: note
+⚠️ **An honest word about alpha.** We're still shaping the app, and the
+underlying data model can change between updates — a change like that may
+require resetting your book, **wiping everything in it**. Don't keep anything
+you can't afford to lose here yet, and **export a backup often** (one JSON file
+you control). During alpha we can't promise every backup restores cleanly
+across a breaking change — we'd rather tell you that up front than pretend
+otherwise.
+:::
+
+::: closing
+## Ready when you are
+
+Your first book takes under a minute. No sign-up, no card, no feed to connect — just you and your numbers.
+:::
+
+::: cta
+[Open the app →](https://app.another.money) [Read the getting-started guide](/getting-started)
+:::
