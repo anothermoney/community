@@ -47,11 +47,19 @@ Most money apps want your bank password and a subscription, then guess at your f
 
 ## The day-to-day, done beautifully
 
-Enter a coffee in seconds, watch recurring bills arrive on schedule, and always know what month's end will look like.
+Enter a coffee in seconds, let recurring bills arrive on schedule — and watch the quiet result: your net worth, climbing.
 
 ::: shots
 ![**Transactions** — the week's story with running balances, notes, and a projected month-end total.](/shots/transactions.png)
-![**Plan** — your recurring income and bills, due dates and amounts, one tap to enter or skip.](/shots/plan.png)
+![**Net worth over time** — everything you own minus everything you owe, one climbing picture, projected ahead.](/shots/networth.png)
+:::
+
+## Then step back for the whole picture
+
+A month of money in a single image — everything that came in, where it flowed, and what stayed with you.
+
+::: shots
+![**Cash flow** — income streaming through your accounts and out to rent, groceries, and savings. Every cent visibly accounted for.](/shots/cashflow.png)
 :::
 
 ::: story
