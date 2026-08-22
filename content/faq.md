@@ -35,9 +35,11 @@ end-to-end encrypted, and sync automatically.
 
 ### Can I import from my old app or bank?
 
-Yes. another.money imports **QIF, OFX, CSV, and MT940**. It's also a faithful
-rebuild of the 2014 *anMoney* data model, so its concepts will feel familiar to
-former users.
+Yes. another.money imports **QIF, OFX, MT940, CAMT.053, and CSV** (with
+ready-made column mappings for several popular budgeting apps), and backups
+from the 2014 *anMoney* Android app restore directly. If your app's format is
+missing, [open a ticket](https://github.com/anothermoney/community/issues)
+with a small sample export.
 
 ### Does it support multiple currencies?
 
