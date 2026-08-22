@@ -64,17 +64,18 @@ A month of money in a single image — everything that came in, where it flowed,
 :::
 
 ::: story
-## Some apps refuse to die
+## Switching is the easy part
 
-In 2014, a little Android app called *anMoney* was discontinued. It never asked
-for your bank credentials and never phoned home — it simply kept an honest,
-exact ledger for people who cared. The apps that came after wanted your logins,
-your data, and a monthly fee.
+Years of history shouldn't chain you to an app that no longer serves you.
+**another.money** reads the files other money apps and banks already let you
+export — QIF, OFX, MT940 and CAMT.053 statements, and CSV with ready-made
+column mappings for several popular budgeting apps — and it restores backups
+from the original 2014 *anMoney* Android app directly. Bring everything;
+nothing starts from zero.
 
-**another.money** is its faithful rebuild: the same trustworthy data model and
-ledger behaviour, rebuilt from scratch for today's browsers, phones, and
-laptops. Not resurrected as a business model — resurrected because it deserved
-to exist.
+Your app's format not on the list?
+[Open a ticket](https://github.com/anothermoney/community/issues) with a small
+sample export and we'll look at adding it.
 :::
 
 ::: note
