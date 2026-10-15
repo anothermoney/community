@@ -1,7 +1,7 @@
 ---
 title: FAQ
 slug: faq
-order: 5
+order: 6
 ---
 
 # Frequently asked questions

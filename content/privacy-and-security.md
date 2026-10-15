@@ -55,5 +55,8 @@ If you turn on [collaboration](/collaboration):
 Either way the file is yours alone — and a recent backup is the only way back
 if you lose your device.
 
+> Want the details? The [security design](/security) page describes the keys,
+> the relay's view of your data and the limitations we know about.
+>
 > Have a security question or want to report an issue? See the
 > [FAQ](/faq) for how to get in touch.
