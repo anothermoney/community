@@ -27,7 +27,7 @@ we plan to build, and it ends with the limitations we know about.
 5. **Say what it can't do.** Security claims without limits are marketing. The
    last section of this page lists ours.
 
-![**Where your data lives.** A local book sends nothing anywhere. The two optional paths, a cloud copy and a shared book, only ever carry ciphertext.](/security/where-data-lives.svg)
+![**Where your data lives.** A local book sends nothing anywhere. The two optional paths, a cloud copy and a shared book, only ever carry ciphertext.](/security/where-data-lives.svg?v=3)
 
 ## Your book at rest
 
@@ -45,7 +45,7 @@ Every random value — keys, salts, nonces — comes from the operating system's
 cryptographic random generator. Every encryption uses a fresh nonce. The app
 checks new passwords for strength and refuses weak ones.
 
-![**Unlocking in the browser.** A random data key encrypts the book. Each way you can unlock, password or passkey, holds its own wrapped copy of that key.](/security/browser-keys.svg)
+![**Unlocking in the browser.** A random data key encrypts the book. Each way you can unlock, password or passkey, holds its own wrapped copy of that key.](/security/browser-keys.svg?v=3)
 
 A book can also be created **without a password**. That is a deliberate choice
 for people who want convenience over protection on a device they trust: such a
@@ -80,7 +80,7 @@ relay. The relay is designed as an **honest-but-curious** service: assume it
 stores everything it receives and reads everything it can. Here is what that
 amounts to.
 
-![**What the relay sees.** It reads the outside of every envelope and forwards it. It cannot open one.](/security/relay-view.svg)
+![**What the relay sees.** It reads the outside of every envelope and forwards it. It cannot open one.](/security/relay-view.svg?v=3)
 
 | The relay **can** see | The relay **cannot** |
 |---|---|
@@ -112,7 +112,7 @@ code to compare, and the owner approves with one tap. The joiner also verifies
 that the authority the relay hands it matches the one in the invite, so a
 malicious relay cannot substitute its own.
 
-![**Pairing a device.** Four steps; the password never travels, and both sides compare a safety code.](/security/pairing.svg)
+![**Pairing a device.** Four steps; the password never travels, and both sides compare a safety code.](/security/pairing.svg?v=3)
 
 **Running your own.** The relay is a single small binary. We publish signed
 releases (Sigstore `cosign`), a one-shot installer that verifies the signature
